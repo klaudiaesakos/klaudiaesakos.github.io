@@ -1,0 +1,136 @@
+# Site settings
+title: Klaudia és Ákos
+email: nagy.akos.andras@gmail.com
+url: www.klaudiaesakos.hu
+description: "Esküvői honlapunk"
+baseurl: ""
+host: 0.0.0.0 # listen to LAN connections
+gems:
+  - jekyll-sitemap
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Possible values
+# `chi` - Chicago
+# `lbc` - Long Beach
+context: chi
+
+locations:
+  templom: &templom_location
+    location_name: Szent Gellért-templom
+    address1: Budapest, Bartók Béla út 149.
+    address2: 
+    coordinates: 47.4687342, 19.0207293
+    google_maps_url: https://www.google.hu/maps/place/Szent+Gell%C3%A9rt-templom/@47.4687342,19.0207293,17z/data=!3m1!4b1!4m5!3m4!1s0x4741ddc401974ffd:0xace0b139a2722925!8m2!3d47.4687342!4d19.022918
+  kolyokobol: &kolyokobol_location
+    location_name: Kölyököböl játszóház
+    address1: Budapest, Kopaszi gát 9.
+    address2: 
+    coordinates: 47.4624629, 19.060988
+    google_maps_url: https://www.google.hu/maps?q=k%C3%B6ly%C3%B6k%C3%B6b%C3%B6l&oe=utf-8&gws_rd=cr&um=1&ie=UTF-8&sa=X&ved=0ahUKEwiGwvDLjJrSAhVJOBQKHd8aCqgQ_AUICSgC
+
+
+events:
+  chi:
+    - name: Katolikus templomi szertatás
+      date: 2017. július 1. 10:30 | Szent Gellért-templom
+      description: 2017. július 1-én örök hűséget fogadunk egymásnak szeretteink körében. Ünnepelj velünk! Esküvőnket a kelenföldi Szent Gellért-templomban fogjuk tartani. A nászmise kb. 1 óra. A kisgyerekek külön játszószobából hallgathatják és láthatják a szertartást. Nagy örömünkre Görög-katolikus pap-barátunk, Bodogán Laci Atya is részt vesz a celebrálásban. Utána egy-két csoportképet szeretnénk készíteni Veletek a templom előtt.
+      transportation:
+      <<: *templom_location
+    - name: Ebéd és délutáni együttlét
+      date: 2017. július 1. 12:00 | Kölyököböl játszóház
+      description: Az ünneplést a kopaszi gáton, a Kölyököbölben folytatjuk. Ez egy klassz játszóház, ahol két animátor gondoskodik majd az aprónép szórakoztatásáról és felügyeletéről. Reméljük az időjárás kedvezően alakul és a dunai holtágra néző teraszon tudjuk együtt tölteni a délutánt. Ha nem így lenne, azt sem bánjuk, mert az eső egyrészt hasznos, másrészt a játszóházon belül is elég nagy terek állnak rendelkezésünkre. Hosszú ebéd és némi pihenés után tortázunk. Este 6-7-ig együtt tudunk maradni a Kölyököbölben, aztán ránk (és még sokakra) várnak a szülői kötelességek. Reméljük a szép környezet, finom ebéd és kiváló társaság mindannyiunk örömére szolgál. Alig várjuk, hogy együtt lehessünk veletek!
+      transportation: Parkolás a kopaszi gát bejáratánál lehetséges, 500 Ft a napidíj. A Kölyököböl a parkolótól 600m-re található, gyalogosan közelíthető meg.
+      <<: *kolyokobol_location
+
+
+mieink:
+   
+   - kep: 14248765_1456283991053184_1169239069_n.jpg
+   - kep: Adrika_es_ET.jpg
+   - kep: Anastasia_es_Martin.jpg
+   - kep: Bizsu.jpg
+   - kep: csaladunk.jpg
+   - kep: Ervin batyja.jpg
+   - kep: Fanni es Ati.jpg
+   - kep: Fanni Martin.jpg
+   - kep: P1020060.JPG
+   - kep: Gabi neni.jpg
+   - kep: apaekkal.jpg
+   - kep: Gali.jpg
+   - kep: IMG_1891.jpg
+   - kep: IMG_2248.jpg
+   - kep: IMG_3182.jpg
+   - kep: IMG_3597.jpg
+   - kep: Anyucival2.jpg
+   - kep: IMG_1113-2.jpg
+   - kep: IMG_3611.jpg
+   - kep: Bababorze_erzsivel.jpg
+   - kep: IMG_3617.jpg
+   - kep: IMG_4322.jpg
+   - kep: IMG_4597.jpg
+   - kep: IMG_4610.jpg
+   - kep: IMG_4661.jpg
+   - kep: IMG_5059.jpg
+   - kep: IMG_5324.jpg
+   - kep: IMG_5722.jpg
+   - kep: IMG_5743.jpg
+   - kep: IMG_0252.JPG
+   - kep: P1020248.JPG
+   - kep: IMG_5774.jpg
+   - kep: irisz_nene.jpg
+   - kep: je16.jpg
+   - kep: je4.jpg
+   - kep: Lanyo.jpg
+   - kep: Matyi.jpg
+   - kep: P1010189.JPG
+   - kep: Mimi.jpg
+   - kep: P1030559.JPG
+   - kep: Mimi2.jpg
+   - kep: Nori_es_Norbi.jpg
+   - kep: Pista_papa_es_jutka.jpg
+   - kep: Reni_(tanu)_es_beci.jpg
+   - kep: rita_neni.jpg
+   - kep: szulok.jpg
+   - kep: Zolika.jpg
+   - kep: Zsuz_Akos.jpg
+   - kep: AkosBeciBalazs.jpg
+   - kep: 171.jpg
+   - kep: Akos_es_ren.jpg
+   - kep: anikonenivel.jpg
+   - kep: anyaes tesok.jpg
+   - kep: IMG_1696.jpg
+   - kep: IMG_5761.jpg
+   - kep: P1000156.jpg
+   - kep: Robertaval.jpg
+   - kep: Moncsim.jpg
+   - kep: Karcsiba.jpg
+   - kep: Jasival2.jpg
+   - kep: DSC02312.JPG
+   - kep: IMG_0251.JPG
+   - kep: emsszel.jpg
+   - kep: ocsemekkel.jpg
+faq:
+  chi:
+    - question: Hogyan öltözzek?
+      answer: |
+        Elegánsan, kényelmesen és praktikusan. A Duna part nem kér nagy, de még kisestélyit sem, és amúgy is délután lesz. A gyerekeknek javasoljuk, hogy készítsenek be maguknak váltóruhát a játszóházba, hogy a templomi csini után önfeledten élvezhessék az animátorokkal a játszóházat.
+    - question: Ki fogja egyengetni az események folyását?
+      answer: |
+        A nagy napon rokonunkat, Nagypál Noémit (Mimit) keressétek, ha eltévedtetek, vagy bármi kérdésetek támad. (Telefonszáma itt lesz) Addig pedig ne sajnáljatok minket bombázni a kérésekkel, kérésekkel a klaj85@gmail.com vagy nagy.akos.andras@gmail.com e-mail címen vagy telefonon.
+    - question: Milyen ételek lesznek? És mikor?
+      answer: |
+       Az ételeket úgy válogattuk össze, hogy mindenki találjon kedvére valót. 12:30-tól előétel; 13:30-tól vega, gluténmentes és húsban bővelkedő fogások egyaránt várnak minket. 15:30 tól édes örömünk torta alakot ölt, és csoki, eszterházy, rozmarigos-málna, nutellás-eper és glutén,laktóz,cukormentes túrós-málnás formákban adnak ízelítőt boldogságunkból. 16:00 uzsizunk, hogy senki ne induljon haza üres pocakkal
+    - question: És meddig tart?
+      answer: Legkésőbb 8-ig tudunk maradni, de mi már 19:30kor otthon fürdetünk:) Ha aznap módunkban áll elmenni valamerre és lesz még valahol jó zene és társaság összefuthatunk, de erről legkorábban aznap. Persze nélkülünk is mindenkit vár a nyári budapesti szombat éjszaka.
+
+  lbc: false
+
+google:
+  key: AIzaSyD_c9PQ8tv6vMqC-v5BQ6q81WQ1O6yZo3g
+
+calendar:
+  ical: https://www.google.com/calendar/ical/baclig.com_fqi9g8u7mre0m4oaqj1p66608c%40group.calendar.google.com/public/basic.ics
+  google_id: baclig.com_fqi9g8u7mre0m4oaqj1p66608c@group.calendar.google.com

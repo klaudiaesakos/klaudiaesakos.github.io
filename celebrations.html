@@ -1,0 +1,67 @@
+---
+layout: info
+title: Esküvő
+billboard_class: billboard-stairs
+---
+
+<script>
+function myMap() {
+  var mapCanvas = document.getElementById("map");
+  var mapOptions = {center: new google.maps.LatLng(47.4710936, 19.0420743), zoom: 13};
+  var map = new google.maps.Map(mapCanvas, mapOptions);
+  var marker_obol = new google.maps.Marker({position: {lat: 47.4624629, lng: 19.060988}, map: map, title: 'Kölyököböl játszóház', animation: google.maps.Animation.DROP});
+  var marker_templom = new google.maps.Marker({position: {lat: 47.468733, lng: 19.022991}, map: map, title: 'Kölyököböl játszóház', animation: google.maps.Animation.DROP});
+  marker_obol.setMap(map);
+  marker_templom.setMap(map);
+  var infowindow_obol = new google.maps.InfoWindow({content: "<div style='text-align:left'>Kölyököböl játszóház<br/>Budapest, Kopaszi gát 9</div>"});
+  infowindow_obol.open(map,marker_obol);
+  marker_obol.addListener('click', function() { infowindow_obol.open(map, marker_obol);});
+  var infowindow_templom = new google.maps.InfoWindow({content: "<div style='text-align:left'>Szent Gellért-templom<br/>Budapest, Bartók Béla út 149.</div>"});
+  infowindow_templom.open(map,marker_templom);
+  marker_templom.addListener('click', function() { infowindow_templom.open(map, marker_templom);});
+}
+</script>
+
+<!--<p align="center"><iframe src="https://www.google.com/maps/d/embed?mid=1pzMhzotUTWHzpy_7P7vnzH4G5rs" width="640" height="480" class="map"></iframe></p>-->
+
+{% for event in site.events[site.context] %}
+  <section class="container content-section {% cycle 'text-left', 'text-right' %}">
+    <div class="row">
+      <div class="col-lg-7 col-lg-offset-{% cycle 2, 3 %} col-sm-offset-2 col-sm-8">
+        <h2>
+          <span style="color:#CC6600;">{{ event.name }}</span>
+          <br>
+          <small>
+            {{ event.date }}
+          </small>
+        </h2>
+
+        <div class="row">
+          <address class="col-xs-8 text-left">
+            <strong>{{ event.location_name }}</strong><br>
+            <a href="{{ event.google_maps_url }}">
+              {{ event.address1 }}<br>
+              {{ event.address2 }}<br>
+            </a>
+          </address>
+
+        </div>
+
+        <p>{{ event.description }}</p>
+        
+        {% if event.transportation %}
+          <p><em>{{ event.transportation }}</em></p>
+        {% endif %}
+
+        {% if event.shuttle %}
+          <p><em>{{ event.shuttle }}</em></p>
+        {% endif %}
+
+      </div>
+    </div>
+  </section>
+{% endfor %}
+
+<div id="map" style="width:800px;height:400px;background:white;margin:0 auto;"></div><br/>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_c9PQ8tv6vMqC-v5BQ6q81WQ1O6yZo3g&callback=myMap"></script>
