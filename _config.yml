@@ -36,13 +36,13 @@ events:
   chi:
     - name: Katolikus templomi szertatás
       date: 2017. július 1. 10:30 | Szent Gellért-templom
-      description: 2017. július 1-én örök hűséget fogadunk egymásnak szeretteink körében. Ünnepelj velünk! Esküvőnket a kelenföldi Szent Gellért-templomban fogjuk tartani. A nászmise kb. 1 óra. A kisgyerekek külön játszószobából hallgathatják és láthatják a szertartást. Nagy örömünkre Görög-katolikus pap-barátunk, Bodogán Laci Atya is részt vesz a celebrálásban. Utána egy-két csoportképet szeretnénk készíteni Veletek a templom előtt.
+      description: 2017. július 1-én örök hűséget fogadunk egymásnak szeretteink körében. Ünnepelj velünk! Esküvőnket a kelenföldi Szent Gellért-templomban fogjuk tartani. A nászmise kb. 1 óra. A kisgyerekek külön játszószobából hallgathatják és láthatják a szertartást. Nagy örömünkre görög-katolikus pap-barátunk, Bodogán Laci atya is részt vesz a celebrálásban. Utána egy-két csoportképet szeretnénk készíteni Veletek a templom előtt.
       transportation:
       <<: *templom_location
     - name: Ebéd és délutáni együttlét
       date: 2017. július 1. 12:00 | Kölyököböl játszóház
-      description: Az ünneplést a kopaszi gáton, a Kölyököbölben folytatjuk. Ez egy klassz játszóház, ahol két animátor gondoskodik majd az aprónép szórakoztatásáról és felügyeletéről. Reméljük az időjárás kedvezően alakul és a dunai holtágra néző teraszon tudjuk együtt tölteni a délutánt. Ha nem így lenne, azt sem bánjuk, mert az eső egyrészt hasznos, másrészt a játszóházon belül is elég nagy terek állnak rendelkezésünkre. Hosszú ebéd és némi pihenés után tortázunk. Este 6-7-ig együtt tudunk maradni a Kölyököbölben, aztán ránk (és még sokakra) várnak a szülői kötelességek. Reméljük a szép környezet, finom ebéd és kiváló társaság mindannyiunk örömére szolgál. Alig várjuk, hogy együtt lehessünk veletek!
-      transportation: Parkolás a kopaszi gát bejáratánál lehetséges, 500 Ft a napidíj. A Kölyököböl a parkolótól 600m-re található, gyalogosan közelíthető meg.
+      description: Az ünneplést a Kopaszi gáton, a Kölyököbölben folytatjuk. Ez egy klassz játszóház, ahol két animátor gondoskodik majd az aprónép szórakoztatásáról és felügyeletéről. Reméljük az időjárás kedvezően alakul és a dunai holtágra néző teraszon tudjuk együtt tölteni a délutánt. Ha nem így lenne, azt sem bánjuk, mert az eső egyrészt hasznos, másrészt a játszóházon belül is elég nagy terek állnak rendelkezésünkre. Hosszú ebéd és némi pihenés után tortázunk. Este 6-7-ig együtt tudunk maradni a Kölyököbölben, aztán ránk (és még sokakra) várnak a szülői kötelességek. Reméljük a szép környezet, finom ebéd és a kiváló társaság mindannyiunk örömére szolgál. Alig várjuk, hogy együtt lehessünk veletek!
+      transportation: Parkolás a Kopaszi gát bejáratánál lehetséges, 500 Ft a napidíj. A Kölyököböl a parkolótól 600 m-re található, gyalogosan közelíthető meg.
       <<: *kolyokobol_location
 
 
@@ -135,14 +135,14 @@ faq:
         Elegánsan, kényelmesen és praktikusan. A Duna part nem kér nagy, de még kisestélyit sem, és amúgy is napközben lesz. A gyerekeknek javasoljuk, hogy készítsenek be maguknak váltóruhát, hogy a templomi csini után önfeledten élvezhessék az animátorokkal a játszóházat.
     - question: Ki fogja egyengetni az események folyását?
       answer: |
-        A nagy napon rokonunkat, Nagypál Noémit (Mimit) keressétek, ha eltévedtetek, vagy bármi kérdésetek támad. (Telefonszáma itt lesz) Addig pedig ne sajnáljatok minket bombázni a kérésekkel, kérésekkel a klaj85@gmail.com vagy nagy.akos.andras@gmail.com e-mail címen vagy telefonon.
+        A nagy napon rokonunkat, Nagypál Noémit (Mimit) keressétek, ha eltévedtetek, vagy bármi kérdésetek támad. (Telefonszáma itt lesz) Addig pedig ne sajnáljatok minket bombázni a kérdésekkel, kérésekkel a klaj85@gmail.com vagy nagy.akos.andras@gmail.com e-mail címen vagy telefonon.
     - question: Milyen ételek lesznek? És mikor?
       answer: |
-       Az ételeket úgy válogattuk össze, hogy mindenki találjon kedvére valót. 12:30-tól előétel; 13:30-tól vega, gluténmentes és húsban bővelkedő fogások egyaránt várnak minket. 15:30 tól édes örömünk torta alakot ölt: csoki, eszterházy, rozmarigos-málna, nutellás-eper és glutén,laktóz,cukormentes túrós-málnás... úgysem bírod végigkóstolni. 16:00-tól uzsonnázunk, hogy senki ne induljon haza üres pocakkal.
+       Az ételeket úgy válogattuk össze, hogy mindenki találjon kedvére valót. 12:30-tól előétel; 13:30-tól vega, gluténmentes és húsban bővelkedő fogások egyaránt várnak minket. 15:30 tól édes örömünk torta alakot ölt: csoki, Eszterházy, rozmarigos-málna, nutellás-eper és glutén, laktóz, cukormentes túrós-málnás... úgysem bírod végigkóstolni. 16:00-tól uzsonnázunk, hogy senki ne induljon haza üres pocakkal.
     - question: És meddig tart?
       answer: Legkésőbb este 7-ig tudunk maradni, mi lehet picivel előbb elindulunk már, mert 19:30kor otthon fürdetünk:) Ha aznap módunkban áll elmenni valamerre és lesz még valahol jó zene és társaság összefuthatunk, de erről legkorábban aznap. Persze nélkülünk is mindenkit vár a nyári budapesti szombat éjszaka.
     - question: Kértek étkészletet vagy porcelánt?
-      answer: Sok aranyos versike kering a neten, de egyet sem szúrnék ide be, elég ha a tanúm Reni kedvéért egy Heaven Street Seven számból idézek - "porcelánt soha nem vinnék magammal semmilyen útra". Kérünk titeket gondoljatok arra, hogy mi megfordítottuk a sorrendet - voltunk nászúton, születtek gyerekeink, házasodunk, de még egy házvásárlás előttünk áll. Természetesen nyertes számokat tartalmazó lottószelvénynek vagy tuti befutó kaparós sorsjegynek is örülünk.  
+      answer: Sok aranyos versike kering a neten, de egyet sem szúrnék ide be, elég ha a tanúm, Reni kedvéért egy Heaven Street Seven számból idézek - "porcelánt soha nem vinnék magammal semmilyen útra". Kérünk titeket gondoljatok arra, hogy mi megfordítottuk a sorrendet - voltunk nászúton, születtek gyerekeink, házasodunk, de még egy házvásárlás előttünk áll. Természetesen nyertes számokat tartalmazó lottószelvénynek vagy tuti befutó kaparós sorsjegynek is örülünk.  
 
   lbc: false
 
