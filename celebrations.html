@@ -13,7 +13,7 @@ function myMap() {
   var marker_templom = new google.maps.Marker({position: {lat: 47.468733, lng: 19.022991}, map: map, title: 'Kölyököböl játszóház', animation: google.maps.Animation.DROP});
   marker_obol.setMap(map);
   marker_templom.setMap(map);
-  var infowindow_obol = new google.maps.InfoWindow({content: "<div style='text-align:left'>Kölyököböl játszóház<br/>Budapest, Kopaszi gát 9</div>"});
+  var infowindow_obol = new google.maps.InfoWindow({content: "<div style='text-align:left'>Kölyököböl játszóház<br/>Budapest, Kopaszi gát 9.</div>"});
   infowindow_obol.open(map,marker_obol);
   marker_obol.addListener('click', function() { infowindow_obol.open(map, marker_obol);});
   var infowindow_templom = new google.maps.InfoWindow({content: "<div style='text-align:left'>Szent Gellért-templom<br/>Budapest, Bartók Béla út 149.</div>"});
