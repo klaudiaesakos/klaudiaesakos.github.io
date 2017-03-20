@@ -19,7 +19,7 @@ context: chi
 
 locations:
   templom: &templom_location
-    location_name: Szent Gellért-templom
+    location_name: Kelenföldi Szent Gellért-templom
     address1: Budapest, Bartók Béla út 149.
     address2: 
     coordinates: 47.4687342, 19.0207293
